@@ -20,6 +20,7 @@ function App() {
   function handleSwap() {
     setDeck1(deck2);
     setDeck2(deck1);
+    createDiff(deck2, deck1);
   }
 
   function createDiff(a: string, b: string) {
