@@ -1,8 +1,6 @@
 import React, { useState } from "react";
 import "./App.css";
 
-type Deck = { name: string; qty: number }[];
-
 const COLS = 30;
 const ROWS = 10;
 
